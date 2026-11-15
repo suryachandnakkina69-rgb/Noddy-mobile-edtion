@@ -5,9 +5,9 @@ document.getElementById('send').onclick=()=>{
  if(!t)return;
  add('YOU: '+t,'user');
  input.value='';
- add('J.A.R.V.I.S: Processing...','ai');
+ add('N.O.D.D.Y: Processing...','ai');
  setTimeout(()=>{
- chat.lastChild.innerText='J.A.R.V.I.S: Systems online. How may I assist you, Boss?';
+ chat.lastChild.innerText='N.O.D.D.Y: Systems online. How may I assist you, Boss?';
  },1000);
 };
 function add(text,who){
